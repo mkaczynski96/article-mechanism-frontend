@@ -3,7 +3,7 @@ import React from 'react'
 class Article extends React.Component {
     render() {
         const readMore = "Read more"
-        let date = new Date(this.props.date)
+        let date = new Date(this.props.date * 1000)
 
         return (
             <article className="article">
