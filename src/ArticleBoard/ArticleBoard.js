@@ -36,7 +36,10 @@ class ArticleBoard extends React.Component {
     render() {
         const { error, isLoaded, posts } = this.state;
         if (error) {
-            return <div>Error: {error.message}</div>;
+            var date = new Date(Date.now())
+            return <div id="articleBoard">
+                <Article name="ERROR: Something went wrong..." date={date} content={error.message} />
+                </div>
         } else if (!isLoaded) {
             return <div>Loading...</div>;
         } else {
