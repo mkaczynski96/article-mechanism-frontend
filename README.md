@@ -1,3 +1,9 @@
+To fully run this project, run article-mechanism-rest also :)
+
+![Article-mechanism-frontend](https://i.imgur.com/HSA6Qg0.png)
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
